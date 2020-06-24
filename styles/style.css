@@ -1,4 +1,5 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap');
 body {
     /* https://coolors.co/generate and click export -> scss to get the colors to copy and paste below*/
     --color1: hsla(349, 69%, 76%, 1);
@@ -28,11 +29,9 @@ body {
     color: white;
     width: 400px;
     height: 300px;
+    text-align: center;
 }
-.name-area {
-    color: black;
-    background-color: white;
-}
+
 h1 {
     font-size: 6em;
     font-weight: bolder;
@@ -44,10 +43,13 @@ h1 {
     padding: 5px;
 }
 .name-area {
-    font-family: cursive;
+    font-family: 'Homemade Apple', cursive;
+    font-size: xx-large;
     font-weight: bolder;
     height: 80px;
     text-align: center;
+    color: black;
+    background-color: white;
 }
 
 .container {
