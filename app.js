@@ -6,11 +6,11 @@ const bg = document.getElementById('nametag');
 updateNameButton.addEventListener('click', () => {
     const nameInput = document.getElementById('input-name');
     const nameOutput = document.getElementById('name');
-    console.log(nameOutput);
+    // console.log(nameOutput);
     // console.log(nameInput);
     let newName = nameInput.value;
     if (newName.toUpperCase() === 'INIGO MONTOYA') {
-        newName = 'My name is Inigo Montoya. You killed my father. Prepare to die.'
+        newName = `${newName}. You killed my father. Prepare to die.`;
         nameOutput.style.fontSize = '10pt';
         bg.style.backgroundImage = 'url("https://www.dictionary.com/e/wp-content/uploads/2018/03/Inigo-Montoya1-300x259.jpg")';
         bg.style.backgroundSize = 'cover';
@@ -30,4 +30,4 @@ lightGreenButton.addEventListener('click', () => {
 
 lightBlueButton.addEventListener('click', () => {
     bg.style.backgroundColor = 'lightBlue';
-})
+});
