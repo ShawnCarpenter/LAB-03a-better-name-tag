@@ -30,8 +30,8 @@ body {
     width: 450px;
     height: 350px;
     text-align: center;
-    bg.style.backgroundSize = 'cover';
-    bg.style.backgroundRepeat = 'no-repeat';
+    background-size:'cover';
+    background-repeat: 'no-repeat';
 }
 
 h1 {
