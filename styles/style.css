@@ -27,9 +27,11 @@ body {
     border-radius: 15px;
     background-color: red;
     color: white;
-    width: 400px;
-    height: 300px;
+    width: 450px;
+    height: 350px;
     text-align: center;
+    bg.style.backgroundSize = 'cover';
+    bg.style.backgroundRepeat = 'no-repeat';
 }
 
 h1 {
@@ -44,9 +46,9 @@ h1 {
 }
 .name-area {
     font-family: 'Homemade Apple', cursive;
-    font-size: xx-large;
+    font-size: x-large;
     font-weight: bolder;
-    height: 80px;
+    height: 90px;
     text-align: center;
     color: black;
     background-color: white;

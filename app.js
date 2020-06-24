@@ -2,31 +2,32 @@ const updateNameButton = document.getElementById('update-name-button');
 const pinkButton = document.getElementById('pink');
 const lightGreenButton = document.getElementById('lightGreen');
 const lightBlueButton = document.getElementById('lightBlue');
-
+const bg = document.getElementById('nametag');
 updateNameButton.addEventListener('click', () => {
     const nameInput = document.getElementById('input-name');
     const nameOutput = document.getElementById('name');
     console.log(nameOutput);
     // console.log(nameInput);
-    const newName = nameInput.value;
+    let newName = nameInput.value;
+    if (newName.toUpperCase() === 'INIGO MONTOYA') {
+        newName = 'My name is Inigo Montoya. You killed my father. Prepare to die.'
+        nameOutput.style.fontSize = '10pt';
+        bg.style.backgroundImage = 'url("https://www.dictionary.com/e/wp-content/uploads/2018/03/Inigo-Montoya1-300x259.jpg")';
+        bg.style.backgroundSize = 'cover';
+        bg.style.backgroundRepeat = 'no-repeat';
+    }
     nameOutput.textContent = newName;
     // console.log(`Name input was ${newName}`);
 });
 
 pinkButton.addEventListener('click', () => {
-    const bg = document.getElementById('nametag');
     bg.style.backgroundColor = 'pink';
-    // console.log(bg);
 });
 
 lightGreenButton.addEventListener('click', () => {
-    const bg = document.getElementById('nametag');
     bg.style.backgroundColor = 'lightGreen';
-    // console.log(bg);
 });
 
 lightBlueButton.addEventListener('click', () => {
-    const bg = document.getElementById('nametag');
     bg.style.backgroundColor = 'lightBlue';
-    // console.log(bg);
 })
