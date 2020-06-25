@@ -52,6 +52,9 @@ h1 {
     text-align: center;
     color: black;
     background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .container {
