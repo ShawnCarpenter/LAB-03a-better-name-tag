@@ -39,10 +39,10 @@ h1 {
     font-weight: bolder;
     text-transform: uppercase;
 }
-.inigo {
+#intro {
     font-size: larger;
     font-weight: bolder;
-    padding: 5px;
+    padding: 10px;
 }
 .name-area {
     font-family: 'Homemade Apple', cursive;
