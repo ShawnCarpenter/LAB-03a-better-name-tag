@@ -1,3 +1,4 @@
+/* eslint-disable no-fallthrough */
 const updateNameButton = document.getElementById('update-name-button');
 const pinkButton = document.getElementById('pink');
 const lightGreenButton = document.getElementById('lightGreen');
@@ -45,6 +46,8 @@ updateNameButton.addEventListener('click', () => {
             bg.style.backgroundRepeat = 'no-repeat';
             break;
         case 'NICK CAGE' :
+        
+        case 'NICHOLAS CAGE' :
             bg.style.backgroundImage = 'url("https://www.placecage.com/450/350")';
             bg.style.backgroundSize = 'cover';
             bg.style.backgroundRepeat = 'no-repeat';
