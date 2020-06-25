@@ -12,8 +12,13 @@ updateNameButton.addEventListener('click', () => {
     bg.style.backgroundImage = '';
     if (newName.toUpperCase() === 'INIGO MONTOYA') {
         newName = `${newName}. You killed my father. Prepare to die.`;
-        // nameOutput.style.fontSize = '10pt';
         bg.style.backgroundImage = 'url("https://www.dictionary.com/e/wp-content/uploads/2018/03/Inigo-Montoya1-300x259.jpg")';
+        bg.style.backgroundSize = 'cover';
+        bg.style.backgroundRepeat = 'no-repeat';
+    }
+    if (newName.toUpperCase() === 'SLIM SHADY') {
+        newName = `The real ${newName}.`;
+        bg.style.backgroundImage = 'url("https://www.eminem.pro/en/wp-content/uploads/2019/09/slim-e1570098725834.jpg")';
         bg.style.backgroundSize = 'cover';
         bg.style.backgroundRepeat = 'no-repeat';
     }
