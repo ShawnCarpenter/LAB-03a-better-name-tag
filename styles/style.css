@@ -67,3 +67,7 @@ h1 {
     flex-direction: row;
     justify-content:space-evenly;
 }
+
+#name {
+    padding: 5px;
+}
