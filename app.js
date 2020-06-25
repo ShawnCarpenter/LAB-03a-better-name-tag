@@ -9,9 +9,10 @@ updateNameButton.addEventListener('click', () => {
     // console.log(nameOutput);
     // console.log(nameInput);
     let newName = nameInput.value;
+    bg.style.backgroundImage = '';
     if (newName.toUpperCase() === 'INIGO MONTOYA') {
         newName = `${newName}. You killed my father. Prepare to die.`;
-        nameOutput.style.fontSize = '10pt';
+        // nameOutput.style.fontSize = '10pt';
         bg.style.backgroundImage = 'url("https://www.dictionary.com/e/wp-content/uploads/2018/03/Inigo-Montoya1-300x259.jpg")';
         bg.style.backgroundSize = 'cover';
         bg.style.backgroundRepeat = 'no-repeat';
@@ -22,12 +23,15 @@ updateNameButton.addEventListener('click', () => {
 
 pinkButton.addEventListener('click', () => {
     bg.style.backgroundColor = 'pink';
+    bg.style.backgroundImage = '';
 });
 
 lightGreenButton.addEventListener('click', () => {
     bg.style.backgroundColor = 'lightGreen';
+    bg.style.backgroundImage = '';
 });
 
 lightBlueButton.addEventListener('click', () => {
     bg.style.backgroundColor = 'lightBlue';
+    bg.style.backgroundImage = '';
 });
