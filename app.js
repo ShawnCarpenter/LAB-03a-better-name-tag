@@ -46,12 +46,18 @@ updateNameButton.addEventListener('click', () => {
             bg.style.backgroundRepeat = 'no-repeat';
             break;
         case 'NICK CAGE' :
-        
+            //no break statement because we want to catch both Nick and Nicholas
         case 'NICHOLAS CAGE' :
             bg.style.backgroundImage = 'url("https://www.placecage.com/450/350")';
             bg.style.backgroundSize = 'cover';
             bg.style.backgroundRepeat = 'no-repeat';
             break;
+        case 'CAT' :
+        case 'KITTY' :
+        case 'KITTEN' :
+            bg.style.backgroundImage = 'url("http://placekitten.com/450/350")';
+            bg.style.backgroundSize = 'cover';
+            bg.style.backgroundRepeat = 'no-repeat';
         default :
             break;            
 
